@@ -15,6 +15,8 @@ h1 {
 
 }
 
+    
+
 header {}
 
 .title {
@@ -363,3 +365,116 @@ footer .line {
     top: 27%;
     left: 27%;
 }
+@media only screen and (max-width: 500px) {
+    
+    h1 {
+    
+    height: 27px;
+    object-fit: contain;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    color: #000000;
+    margin-top: 46px;
+        text-align: center;
+    }
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    flex-direction: column;
+}
+
+.background span {
+    font-size: 22px;  
+}
+
+.background p {
+    width: 250px;
+    height: auto;
+    font-size: 14px;
+}
+
+.blocks {
+    display: flex;
+align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 0px;
+}
+   
+figure {
+    width: 80%;
+    text-align: center;
+}
+figcaption p {
+    margin-bottom: 20px;
+
+}
+
+.tickets {
+    height: 300px;
+    background: white;
+}
+
+.circle {
+    width: auto;
+    height: auto;
+}
+
+.circle h2 {
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.circle h3 {
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.circle h3:nth-of-type(2)::after {
+visibility: hidden;
+}
+
+.circle h3:nth-of-type(3)::after {
+visibility: hidden;
+}
+
+.circle p {
+    width: 250px;  
+}
+
+.button span::after {
+    margin-top: 90px;
+    margin-left: 30px;
+}
+
+footer {
+    width: 100%;
+    height: 410px;
+    margin-top: 250px;
+}
+
+
+footer .line {
+    position: relative;
+    width: 86.8%;
+    height: 0px;
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;
+    margin-left: 6.6%;
+    margin-right: 6.6%;
+}
+
+.icons {
+    justify-content: center;
+    margin-top: 22px;
+}
+
+.icon {
+  margin-right: 7px;
+    }}
+    
